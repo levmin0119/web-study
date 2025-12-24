@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p>每个表格由 table 标签开始</p>
+        <p>每个表格中的 行 由 tr 标签开始</p>
+        <p>每个表格中的数据由 td 标签开始</p>
+        <table border="1">
+            <tr>
+                <td>
+                    zhangyue
+                 </td>
+            </tr>
+        </table>
+
+        <table border="1"> 
+            <tr>
+                <td align="center">name</td>
+                <td align="center">sex</td>
+                <td align="center">age</td>
+            </tr>
+            <tr>
+                <td>zhanngyue</td>
+                <td>man</td>
+                <td>27</td>
+            </tr>
+        </table>
+
+        <p>表格的表头</p>
+        <table border="1">
+            <tr>
+                <th>我正在学习前端开发</th>
+                <th colspan="2">我正在学习表格标签</th>
+            </tr>
+            <tr>
+                <td>study html</td>
+                <td>study table target</td>
+                <td>学习 表格标签</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>study table tar</td>
+                <td>学习
+                    <p>在表格中嵌套表格</p>
+                    <!--在表格中嵌套表格-->
+                    <table border="1">
+                    <tr>
+                        <th>乐器</th>
+                        <th>运动</th>
+                    </tr>
+                    <tr>
+                        <td>吉他</td>
+                        <td>篮球</td>
+                    </tr>
+                </table>
+                </td>
+                
+            </tr>
+        </table>
+        <!--行间距和表格间距 代表表格添加背景图片-->
+        <table border="1" cellpadding="10" cellspacing="10" bgcolor="green" background="./img1.png">
+            <tr>
+                <th>姓名</th>
+                <td>zhangyue</td>
+            </tr>
+            <tr>
+                <th rowspan="2">电话</th>
+                <td>15093307913</td>
+            </tr>
+            <tr>
+                <td>19034816388</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <ul>
+                        <li>苹果</li>
+                        <li>橘子</li>
+                        <li>香蕉</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
